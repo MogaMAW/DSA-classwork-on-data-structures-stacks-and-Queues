@@ -13,7 +13,7 @@ class Stack():
         return len(self.items)
     def __repr__(self):
         return "Greatest value: {}, size :{}".format(self.peak(),self.size())
-""" reverses a  stack"""
+""" reverses a  stack """
 PROMPT = "Enter an int value (<0 to end):"
 myStack = Stack()
 value = int(input( PROMPT ))
