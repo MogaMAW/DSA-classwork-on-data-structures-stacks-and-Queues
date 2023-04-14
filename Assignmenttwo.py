@@ -19,6 +19,7 @@ height2 = 45.5
 
 rectanle1=Rectangle(width, height)
 rectanle2=Rectangle(width2, height2)
+
 print(rectanle1)
 print(rectanle2)
 print("Ratio: {}".format(rectanle1.getArea() / rectanle2.getArea()))
