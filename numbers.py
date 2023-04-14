@@ -5,7 +5,8 @@ try:
     print(math.sqrt(25,6))
 except TypeError:
     print("Wrong number of arguments used in sqrt() ")
-    finally:
+    
+finally:
     print("Okay, Correct it")
 
 
