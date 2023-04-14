@@ -1,4 +1,5 @@
 # using a linked list
+
  # Implementation of the Stack ADT using a singly linked list.
 class Stack2 :
 # Creates an empty stack.
