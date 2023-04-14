@@ -16,7 +16,6 @@ width = 3
 height = 30
 width2 = 4.5
 height2 = 45.5
-
 rectanle1=Rectangle(width, height)
 rectanle2=Rectangle(width2, height2)
 print(rectanle1)
