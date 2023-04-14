@@ -6,6 +6,7 @@ class Stack2 :
     def __init__( self ):
         self._top = None
         self._size = 0
+        
     # Returns True if the stack is empty or False otherwise.
     def isEmpty( self ):
         return self._top is None
