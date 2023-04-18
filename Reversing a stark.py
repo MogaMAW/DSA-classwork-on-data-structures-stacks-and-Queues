@@ -29,6 +29,7 @@ value = int(input( PROMPT ))
 while value >= 0 :
     myStack.push( value )
     value = int(input( PROMPT ))
+    
 while not myStack.is_empty() : #when a negative integer is entered,the loop displays a reversed stack
     value = myStack.pop()
     print( value )
