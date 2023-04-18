@@ -25,6 +25,7 @@ PROMPT = "Enter an int value (<0 to end):"
 myStack = Stack()
 value = int(input( PROMPT ))
 
+
 while value >= 0 :
     myStack.push( value )
     value = int(input( PROMPT ))
