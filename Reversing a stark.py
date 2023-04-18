@@ -15,6 +15,7 @@ class Stack():
         
         return self.items[len(self.items)-1]
     def size(self):
+        
         return len(self.items)
     def __repr__(self):
         return "Greatest value: {}, size :{}".format(self.peak(),self.size())
