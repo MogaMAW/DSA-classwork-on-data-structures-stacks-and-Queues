@@ -9,6 +9,7 @@ class Stack():
         
         return self.items.append(item)
     def pop(self):
+        
         return self.items.pop()
     def peak(self):
         return self.items[len(self.items)-1]
