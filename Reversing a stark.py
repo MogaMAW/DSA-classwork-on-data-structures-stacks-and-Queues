@@ -2,6 +2,7 @@ class Stack():
     
     def __init__(self):
          self.items = [1,3,4,3,64,89]
+        
     def is_empty(self):
         return self.items == []
     def push(self,item):
